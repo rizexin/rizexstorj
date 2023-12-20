@@ -29,6 +29,7 @@ async function readFileLineByLine(sourcePath) {
   })
 }
 
+// call function on async mode
 ;(async () => {
   await readFileLineByLine(sourcePath)
 })()
